@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Kata_PrimeFactors")]
+[assembly: AssemblyTitle("PrimeFactors")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Kata_PrimeFactors")]
+[assembly: AssemblyProduct("PrimeFactors")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("df1b1f9b-d78c-4423-83e9-2288fd9c6772")]
+[assembly: Guid("07409dc6-9644-4ba0-b9c4-35e8ee5268d5")]
 
 // Version information for an assembly consists of the following four values:
 //
