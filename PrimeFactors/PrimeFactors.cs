@@ -9,7 +9,7 @@ namespace PrimeFactors
     /// <summary>
     /// Class to handle the prime factor process
     /// </summary>
-    public class PrimeFactors
+    public static class PrimeFactors
     {
         /* TODO - Implement your class here */
     }
