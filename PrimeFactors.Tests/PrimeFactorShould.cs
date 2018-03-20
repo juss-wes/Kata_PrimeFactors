@@ -16,11 +16,11 @@ namespace PrimeFactors.Tests
             var result = PrimeFactors.Generate(input);
 
             // Assert
-            Assert.AreEqual(ListContaining(), result);
+            CollectionAssert.AreEquivalent(ListContaining(), result);
         }
 
         [TestMethod]
-        public void ReturnOneGivenTwo()
+        public void ReturnTwoGivenTwo()
         {
             // Arrange
             var input = 2;
@@ -29,7 +29,7 @@ namespace PrimeFactors.Tests
             var result = PrimeFactors.Generate(input);
 
             // Assert
-            Assert.AreEqual(ListContaining(1), result);
+            CollectionAssert.AreEquivalent(ListContaining(2), result);
         }
 
         [TestMethod]
@@ -42,7 +42,7 @@ namespace PrimeFactors.Tests
             var result = PrimeFactors.Generate(input);
 
             // Assert
-            Assert.AreEqual(ListContaining(3), result);
+            CollectionAssert.AreEquivalent(ListContaining(3), result);
         }
 
         [TestMethod]
@@ -55,7 +55,7 @@ namespace PrimeFactors.Tests
             var result = PrimeFactors.Generate(input);
 
             // Assert
-            Assert.AreEqual(ListContaining(2,2), result);
+            CollectionAssert.AreEquivalent(ListContaining(2,2), result);
         }
 
         [TestMethod]
@@ -68,7 +68,7 @@ namespace PrimeFactors.Tests
             var result = PrimeFactors.Generate(input);
 
             // Assert
-            Assert.AreEqual(ListContaining(2, 3), result);
+            CollectionAssert.AreEquivalent(ListContaining(2, 3), result);
         }
 
         [TestMethod]
@@ -81,7 +81,7 @@ namespace PrimeFactors.Tests
             var result = PrimeFactors.Generate(input);
 
             // Assert
-            Assert.AreEqual(ListContaining(2, 2, 2), result);
+            CollectionAssert.AreEquivalent(ListContaining(2, 2, 2), result);
         }
 
         [TestMethod]
@@ -94,7 +94,20 @@ namespace PrimeFactors.Tests
             var result = PrimeFactors.Generate(input);
 
             // Assert
-            Assert.AreEqual(ListContaining(3, 3), result);
+            CollectionAssert.AreEquivalent(ListContaining(3, 3), result);
+        }
+
+        [TestMethod]
+        public void ReturnSevenThreeTwoAndTwoGivenEightyFour()
+        {
+            // Arrange
+            var input = 84;
+
+            // Act
+            var result = PrimeFactors.Generate(input);
+
+            // Assert
+            CollectionAssert.AreEquivalent(ListContaining(7, 3, 2, 2), result);
         }
 
         /// <summary>
