@@ -16,7 +16,7 @@ namespace PrimeFactors
         /// </summary>
         /// <param name="input">Integer to determine the prime factors for</param>
         /// <returns>List of integers found to be primes</returns>
-        public static IEnumerable<int> Generate(int input)
+        public static List<int> Generate(int input)
         {
             // TODO - Implement here
             throw new NotImplementedException();

@@ -20,7 +20,7 @@ namespace PrimeFactors.Tests
         }
 
         [TestMethod]
-        public void ReturnOneGivenTwo()
+        public void ReturnTwoGivenTwo()
         {
             // Arrange
             var input = 2;
@@ -29,7 +29,7 @@ namespace PrimeFactors.Tests
             var result = PrimeFactors.Generate(input);
 
             // Assert
-            Assert.AreEqual(ListContaining(1), result);
+            Assert.AreEqual(ListContaining(2), result);
         }
 
         [TestMethod]
