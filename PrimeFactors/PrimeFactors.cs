@@ -11,6 +11,15 @@ namespace PrimeFactors
     /// </summary>
     public static class PrimeFactors
     {
-        /* TODO - Implement your class here */
+        /// <summary>
+        /// Method to generate the prime factors for a given input
+        /// </summary>
+        /// <param name="input">Integer to determine </param>
+        /// <returns></returns>
+        public static List<int> Generate(int input)
+        {
+            // TODO - Implement here
+            throw new NotImplementedException();
+        }
     }
 }
